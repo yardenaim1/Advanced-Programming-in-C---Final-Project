@@ -85,10 +85,7 @@ void insertNodeToEndList(movesList *Lst, moveCell*  tail)
 
 bool isEmptyList(movesList *Lst)
 {
-	if (Lst->head == NULL)
-		return true;
-	else
-		return false;
+	return (Lst->head == NULL)
 }
 
 void freeList(movesList *lst)
